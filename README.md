@@ -1,0 +1,1 @@
+test_for_rust_on_ubuntu_20p04
