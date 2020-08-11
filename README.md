@@ -1,13 +1,24 @@
 # test_for_rust_on_ubuntu_20p04
 
-## compile
+## 0. Prerequisite
+- https://www.rust-lang.org/tools/install
+```
+sudo apt install curl
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source $HOME/.cargo/env
+```
+
+## 1. write and save source code
+- hello.rs
+
+## 2-a. compile
 ```
 sharo@kirima:~$ rustc hello.rs -o hello
 sharo@kirima:~$ ./hello
 Hello, world!
 ```
 
-## cargo
+## 2-b. cargo
 ```
 sharo@kirima:~/Github/test_for_rust_on_ubuntu_20p04$ cargo new hello
      Created binary (application) `hello` package
